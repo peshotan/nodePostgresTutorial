@@ -18,7 +18,7 @@ CREATE TABLE winners(
     winner character varying(2)
 );
 
-INSERT INTO monsters(name, behavous)
+INSERT INTO monsters(name, behaviour)
 VALUES
 ('Fluffy', 'erratic'),
 ('Noodles', 'angry'),
@@ -34,5 +34,5 @@ VALUES
 ('Fluffy', 'Captain', 'F'),
 ('Noodles','Captain', 'C'),
 ('Fluffy', 'Iron_Man', 'IM'),
-('Rusty', 'Iron_Man', 'R);
+('Rusty', 'Iron_Man', 'R');
 

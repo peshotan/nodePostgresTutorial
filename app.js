@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.use("/monsters", monsters);
 app.use("/heros", heros);
-// app.use("/winners", winners)
+app.use("/winners", winners)
 
 app.use((err, req, res, next) => {
    console.log(err);
